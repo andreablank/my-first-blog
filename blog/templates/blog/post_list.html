@@ -1,11 +1,14 @@
+{% load staticfiles %}
 <html>
     <head>
         <title>#fotd</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
         <div>
             <h1><a href="/">Food Of The Day - Was steht heute auf dem Tisch?</a></h1>
-        </div>
         </div>
 
         {% for post in posts %}
@@ -15,4 +18,5 @@
                 <p>{{ post.text|linebreaksbr }}</p>
             </div>
         {% endfor %}
+    </body>
 </html>
