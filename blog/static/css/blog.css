@@ -6,7 +6,7 @@
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 36pt;
+    font-size: 58pt;
     text-decoration: none;
 }
 
@@ -15,8 +15,12 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
-}
+	font-family: "Amatic SC";
+	font-size: 58px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 100px;
 
 .date {
     color: #828282;
